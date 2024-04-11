@@ -30,7 +30,7 @@ function App() {
       <div style={{
         left: Xaxis + 'px',
         top: Yaxis + 'px',
-        transform: 'translate(-50%, -50%)'
+        transform: 'translate(-50%, -50%)',
       }} className=' hidden cursor fixed z-50 border-white border w-8 h-8 bg-transparent rounded-full md:flex justify-center items-center'>
         <div className='inner w-3 h-3 rounded-full bg-white'></div>
       </div>
