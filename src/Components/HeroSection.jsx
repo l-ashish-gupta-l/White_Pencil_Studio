@@ -2,7 +2,7 @@ import React from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
+import Team from '../assets/clutch-award-team.webp'
 // Ensure ScrollTrigger is activated
 gsap.registerPlugin(ScrollTrigger);
 
@@ -95,7 +95,10 @@ function HeroSection() {
                     </div>
                 </div>
                 <div className='Content relative video_sceen mt-10 md:mt-0 flex  w-full h-screen px-5 md:px-0'>
-                    <div id='screen' className='absolute bg-zinc-200 w-[20%] h-[10%] md:w-1/4 md:h-1/4 md:right-16 md:-top-[30%] rounded-lg opacity-0 md:opacity-100'></div>
+                    <div id='screen' className='absolute bg-zinc-200 w-[20%] h-[10%] md:w-1/4 md:h-1/4 md:right-16 md:-top-[30%] rounded-lg opacity-0 md:opacity-100 overflow-hidden'>
+                        <img src={Team} alt="Team" className='w-full h-full object-cover'/>
+                    </div>
+                            
                 </div>
             </div>
         </>)

@@ -11,7 +11,7 @@ import Pic9 from '../assets/Center.png'
 
 function CTC_Page() {
     return (
-        <div className='md:px-20  py-2 border-t pt-10 md:mt-10 w-full h-1/2  md:h-screen '>
+        <div className='md:px-20  py-2  pt-10 md:mt-10 w-full h-1/2  md:h-screen '>
             <div className=' py-2 px-5 w-full h-full relative '>
                 <div className='top flex gap-2 md:gap-5 w-full h-1/2 '>
                     <div className='w-1/4 border h-1/2 md:h-[110%] flex justify-center items-center'>

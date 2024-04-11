@@ -7,16 +7,16 @@ function Services() {
                 <h1 className='font-["para"] text-2xl md:text-lg tracking-wider border-b-2'>Services</h1>
                 <div className=' md:px-10 h-[94vh] flex flex-col items-center'>
                     <div className='top  md:px-10 w-full md:h-4/5 py-10 tracking-widest'>
-                        <div class='md:w-1/2 w-full md:h-1/4   md:mt-0  flex  items-center'>
+                        <div className='md:w-1/2 w-full md:h-1/4   md:mt-0  flex  items-center'>
                             <h1 className='font-["Monument"] uppercase text-3xl md:text-5xl'>Branding</h1>
                         </div>
-                        <div class='w-1/2 md:h-1/4  ml-[50%] flex mt-10 md:mt-0 items-center justify-end'>
+                        <div className='w-1/2 md:h-1/4  ml-[50%] flex mt-10 md:mt-0 items-center justify-end'>
                             <h1 className='  font-["Monument"] uppercase text-3xl md:text-5xl text-end'>ui/ux design</h1>
                         </div>
-                        <div class='w-1/2 md:h-1/4  flex mt-10 md:mt-0 items-center'>
+                        <div className='w-1/2 md:h-1/4  flex mt-10 md:mt-0 items-center'>
                             <h1 className=' Stroke font-["Monument"] uppercase text-3xl md:text-5xl'>Web development</h1>
                         </div>
-                        <div class='w-1/2 md:h-1/4  ml-[50%] flex mt-12 md:mt-0 items-center justify-end'>
+                        <div className='w-1/2 md:h-1/4  ml-[50%] flex mt-12 md:mt-0 items-center justify-end'>
                             <h1 className=' Stroke font-["Monument"] uppercase text-3xl md:text-5xl text-end'>App development</h1>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ function Services() {
                         <p className='w-full md:w-1/2 '>We use the power of design to solve complex problems and cultivate business solutions.</p>
                         <div className='btn mt-5 md:mt-0 '>
                             <button className='px-4 py-2 leading-none text-white tracking-widest text-xs font-["Monument"] border-[.3px] border-white bg-black rounded-full'>
-                                START YOUR PROJECT
+                                View All Projects
                             </button>
                         </div>
                     </div>

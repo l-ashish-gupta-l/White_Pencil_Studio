@@ -2,6 +2,8 @@ import React from 'react'
 import Logo from '../assets/LOGO.svg'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
+import { RiMenu4Fill } from "react-icons/ri";
+
 function Navbar() {
 
     useGSAP(() => {
@@ -31,8 +33,10 @@ function Navbar() {
                     </button>
                 </div>
             </div>
-            <div className='hamburger w-10 h-10 md:hidden rounded-full bg-white'
-            ></div>
+            <div className='hamburger w-10 h-10 flex justify-center items-center  md:hidden rounded-full '
+            >
+                <RiMenu4Fill size={30} />
+            </div>
 
         </div>
 

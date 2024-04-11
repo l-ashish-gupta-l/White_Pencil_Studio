@@ -21,8 +21,8 @@ function App() {
 
     });
   }, [])
-  console.log(Xaxis)
-  console.log(Yaxis)
+  // console.log(Xaxis)
+  // console.log(Yaxis)
 
 
   return (

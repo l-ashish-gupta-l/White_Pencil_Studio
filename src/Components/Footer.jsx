@@ -8,7 +8,7 @@ import mart from '../assets/mart.png'
 function Footer() {
   return (
     <div className=' w-full  h-screen relative'>
-      <div className=' top w-full px-20 h-[45%]  flex p-3 gap-3'>
+      <div className=' top w-full   px-5 md:px-20 md:h-[45%]  hidden md:flex p-3 gap-3'>
         <div className='w-1/2 h-full border flex justify-center items-center '>
           <img src={clutch} />
         </div>
@@ -55,10 +55,10 @@ function Footer() {
 
         </div>
       </div>
-      <div className='w-full h-[45%] px-20 py-10 p-3'>
-        <div className='w-full h-full '>
-          <h1 className='font-["Monument"] text-7xl uppercase'>let's build</h1>
-          <h1 className='Stroke font-["Monument"] text-7xl uppercase text-right '>Together.</h1>
+      <div className='w-full h-[45%] px-5 md:px-20 py-10 p-3'>
+        <div className='w-full md:h-full '>
+          <h1 className='font-["Monument"] text-3xl md:text-7xl uppercase'>let's build</h1>
+          <h1 className='Stroke font-["Monument"] text-3xl md:text-7xl uppercase text-right '>Together.</h1>
           <button className='px-[1px] py-[1px] mt-5 leading-none text-black flex justify-center items-center gap-2 tracking-widest text-xs font-["Monument"] bg-white rounded-full'>
             <div className=' px-4 py-2   rounded-full border-black border-2 w-full h-full  flex justify-center items-center gap-2'>
               <span><img src={WSvg} /></span><h1 className='font-bold'>hello@thewhitepencil.com</h1>
