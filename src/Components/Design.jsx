@@ -6,7 +6,7 @@ function Design() {
     useGSAP(() => {
         gsap.to(".strip", {
             xPercent: -45,
-            duration: 5,
+            duration: 6,
             repeat: -1,
             ease: 'none' ,
         })
