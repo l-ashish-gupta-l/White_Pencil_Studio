@@ -31,10 +31,10 @@ To clone and run this project locally, follow these steps:
 3. Install dependencies ( npm install )
 4. Run the development server ( npm run dev )
 
+ 
+
+
 ## Figma Design
 
-The design of this project was based on the Figma prototype provided by White Pencil Studio. You can view the Figma design by clicking [here]().
+The design of this project was based on the Figma prototype provided by White Pencil Studio. You can view the Figma design by clicking [here](https://www.figma.com/file/jkrjtyVDXeqyCINTI3Jx4p/White-Pencil?type=design&node-id=246%3A106&mode=design&t=wS48esE712RQwusL-1).
 
-## Demo Video
-
-To see a demo of the cloned website in action, check out this [video](insert video link).
