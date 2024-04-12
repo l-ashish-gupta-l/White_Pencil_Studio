@@ -8,7 +8,7 @@ function Design() {
             xPercent: -45,
             duration: 6,
             repeat: -1,
-            ease: 'none' ,
+            ease: 'none',
         })
     }, [])
     return (
@@ -66,7 +66,7 @@ function Design() {
                             <div className=" w-5 h-5 rounded-full bg-gradient-to-br from-purple-600 via-purple-500 to-pink-500 backdrop-blur-xl "></div>
                             <h1 className='font-["para"] ml-2 tracking-wider text-lg'>Creators</h1>
                         </div>
-                </div>
+                    </div>
                 </div>
             </div>
 
